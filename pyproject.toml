@@ -1,0 +1,5 @@
+[tool.ruff]
+extend-exclude = [
+    "kvstore_pb2_grpc.py",
+    "kvstore_pb2.py",
+]

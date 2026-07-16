@@ -1,0 +1,5 @@
+services:
+  mini-redis:
+    build: .
+    ports:
+      - "8000:8000"
